@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+    .container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(218, 210, 210);
+    }
+
+    .carousel-item img {
+        width: 100%;
+    }
+
+    .carousel-caption p {
+        color: rgb(254, 0, 0);
+        font-weight: bolder;
+        text-decoration: underline;
+    }
+
+    .carousel-caption h2 {
+        color: rgb(254, 0, 0);  
+    }
+
+    #donald p {
+        font-size: 14px;
+    }
+
+    #donald h2 {
+        font-size: 19px;
+        font-weight: bolder;
+    }
+
+    .row img {
+        max-width: 350px;
+    }
+
+    .row {
+        border-radius: 10px;
+    }
+
+    .row a {
+        margin-bottom: 8px;
+    }
+
+
+    .card p {
+        padding: 8px 0;
+        font-size: 16px;
+        margin-left: 5px;
+    }
+
+    .card h4 {
+        text-align: center;
+    }
+
+    #subtitulo {
+        border-bottom: 1px solid rgb(85, 85, 85);
+        margin-bottom: 20px;
+        
+    }
+
+    .container header h1 {
+        font-size: 60px;
+    }
+
+    .card footer {
+        font-size: 10px;
+    }
+
+    /*section {
+        height: 100vh;
+    }*/
+
+    .nav-link {
+        text-align: center;
+        font-weight: bolder;
+        border-bottom: 0.2px solid rgb(85, 85, 85);
+    } 
+
+    footer p {
+        background-color: blueviolet;
+        padding: 16px 0;
+    }
+
+@media screen  and (max-width: 767px) {
+
+    .container {
+        max-width: 100%;
+    }
+
+    
+    .carousel-caption p {
+        font-size: 8px;
+    }
+
+    .carousel-caption h2 {
+        font-size: 16px;
+    }
+
+    #donald p {
+        font-size: 8px;
+    }
+
+    #donald h2 {
+        font-size: 16px;
+    }
+
+    .navbar h1 {
+        font-size: 30px;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .row {
+        width: 800px;
+        justify-content: space-between;
+        margin-bottom: 8px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .container {
+        max-width: 100%;
+    }
+
+    .row {
+        display: grid;
+        grid-auto-columns: repeat(2, 32%);
+    }
+
+    .row {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+    }
+
+    .card {
+        width: 300px;
+    }
+
+}
